@@ -1,0 +1,8 @@
+.elements__item-image {
+  height: 282px;
+  min-height: 282px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  display: block;
+}
