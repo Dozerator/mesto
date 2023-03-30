@@ -15,10 +15,12 @@
   transform: translate(-50%, -50%);
   transition: 0.2s;
 }
+
 .popup__button-close:hover {
   cursor: pointer;
   opacity: 0.6;
 }
+
 @media screen and (max-width: 768px) {
   .popup__button-close {
     height: 20px;
