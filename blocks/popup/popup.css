@@ -1,13 +1,14 @@
 .popup {
+  display: flex;
   position: fixed;
   top: 0;
-  min-height: 100vh;
+  height: 100%;
   width: 100%;
-  font-family: "Inter", Arial, sans-serif;
-  justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: #000;
-  box-sizing: border-box;
-  display: none;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
 }

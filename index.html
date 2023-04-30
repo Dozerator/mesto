@@ -24,6 +24,7 @@
         <button class="profile__button-add" type="button"></button>
       </section>
       <section class="elements">
+        <ul class="elements__list"></ul>
       </section>
     </main>
     <footer class="footer">
@@ -63,7 +64,6 @@
               id="name"
               name="title"
               minlenght="2"
-              maxlength="40"
               required
             />
           </label>
@@ -73,7 +73,6 @@
               id="job"
               name="subtitle"
               minlenght="5"
-              maxlength="60"
               required
             />
           </label>
@@ -90,7 +89,7 @@
           type="button"
           title="Закрыть"
         ></button>
-        <form class="popup__form popup__form-card" name="card" action="#">
+        <form class="popup__form-card" name="card" action="#">
           <h3 class="popup__title">Новое место</h3>
           <label class="popup__label">
             <input
@@ -98,7 +97,7 @@
               id="cardName"
               name="cardInput"
               minlenght="2"
-              maxlength="60"
+              placeholder="Название"
               required
             />
           </label>
@@ -108,6 +107,7 @@
               id="cardSrc"
               name="cardInputSrc"
               minlenght="2"
+              placeholder="Ссылка на картинку"
               required
             />
           </label>

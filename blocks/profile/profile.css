@@ -5,7 +5,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
 @media screen and (max-width: 768px) {
   .profile {
     margin-bottom: 36px;

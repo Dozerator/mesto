@@ -7,10 +7,10 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  position: relative;
+  position: fixed;
+  top: 195px;
   width: 430px;
 }
-
 @media screen and (max-width: 768px) {
   .popup__container {
     width: 282px;
