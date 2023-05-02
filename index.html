@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Место</title>
     <link rel="stylesheet" href="./pages/index.css">
+ 
   </head>
   <body class="page">
     <header class="header">
@@ -30,14 +31,9 @@
     <footer class="footer">
       <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
     </footer>
-    <template class="item__template">
+    <template id="item-template">
       <li class="elements__item">
-        <button
-          class="elements__trash-button"
-          type="button"
-          id="delete"
-          title="delete"
-        ></button>
+        <button class="elements__trash-button" type="button" title="delete"></button>
         <img class="elements__item-image" />
         <div class="elements__item-container">
           <h2 class="elements__item-title"></h2>
@@ -139,7 +135,7 @@
         </figure>
       </div>
     </section>
-
+    <script src="./scripts/cards.js"></script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
